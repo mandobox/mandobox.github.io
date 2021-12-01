@@ -2,10 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Work+Sans&display=swap');
 
 body {
- background-image: url("https://davidnwilsonsandbox.files.wordpress.com/2021/10/index-gif-short1.gif");
+ /* background-image: url("https://davidnwilsonsandbox.files.wordpress.com/2021/10/index-gif-short1.gif");
  background-position: center;
  background-repeat: no-repeat; 
- background-size: cover;
+ background-size: cover; */
+background-color: black
 }
 
 

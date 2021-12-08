@@ -120,7 +120,7 @@ mark.current {
   position: relative;
   display: inline-block;
   vertical-align: top;
-  margin-left: 10px;
+  margin-left: 75px;
   width: 500px;
   height: 340px;
 }
@@ -143,6 +143,26 @@ img{
 max-width: 100%;
 height: auto;
 
+}
+
+div.gallery{
+  margin-top: 45px;
+  width: 100%;
+  text-align: center;
+}
+
+.column img {
+    width: 600;
+    height: auto;
+    object-fit: contain;
+    margin: 10px;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
 }
 
 

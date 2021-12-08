@@ -122,7 +122,8 @@ mark.current {
   vertical-align: top;
   margin-left: 75px;
   width: 500px;
-  height: 340px;
+  height: 400;
+ object-fill: contain;
 }
 
 .about {

@@ -1,24 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Oxygen&family=Ubuntu:wght@500&display=swap');
 
-/*
-body {
- background-image: url("/Users/amhaubz/Desktop/0_ART338_WEBSITE_SOURCE/media/index-GIF2.gif");
- background-position: center center;
- background-repeat: no-repeat;
- background-size: cover;
-} */
 
 .mandogifheader {
 height: 90px;
 width: 120px;
 margin: auto;
- /*border: 1px solid red;*/
+
 }
 
 .menunav {
+ font-family: avenir;
 height: 18px;
 width: 200px;
-/* border: 1px solid red; */
 float: right;
 margin-top: -70px;
 text-align: center;
@@ -27,32 +19,37 @@ font-size: 10px;
 }
 
 body {
-  margin: 10;
+ font-family: avenir;
+  margin: 10px;
+  /*height: 100%;*/
   background-color: black;
-/* border: 1px solid green; */
+
+
 }
 
-.about{
-  margin-left:58px;
-}
+
 
 .contacttext{
+ font-family: avenir;
   margin: auto;
   width: 150px;
   height: 20px;
   padding: 10px;
-/*  border: solid 1px green;*/
+
 
 }
 
 
 ul {
+ font-family: avenir;
   list-style-type: none;
   margin: 0;
   padding: 0;
   margin-right: auto;
 }
+
 li{
+ 
   display: inline-block;
   font-family: avenir;
   color: #FF6356;
@@ -61,24 +58,28 @@ li{
 }
 
 mark.current {
+ font-family: avenir;
   color: #FF0087;
   background-color: transparent;
   font-weight: bold;
 }
 
   mark.one {
+   font-family: avenir;
     color: #8B00FF;
     background-color: transparent;
     font-weight: bold;
   }
 
   mark.two {
+   font-family: avenir;
     color: #00F6FF;
     background-color: transparent;
     font-weight: bold;
   }
 
   mark.three {
+   font-family: avenir;
     color: #B1FF00;
     background-color: transparent;
     font-weight: bold;
@@ -100,17 +101,37 @@ mark.current {
   }
 
   a:link {
+   font-family: avenir;
     text-decoration: none;
     color: white;
   }
 
+
 .name{
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
   height: auto;
   width: 500px;
-  margin: left;
-
-
+  border: 1px solid red;
 }
+
+.about-image {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 10px;
+  width: 500px;
+  height: 340px;
+}
+
+.about {
+  position: relative;
+  left: 60px;
+  height: auto;
+  width: auto;
+}
+
 
 p{
 font-family: avenir;
@@ -118,98 +139,25 @@ color: white;
 left: 183px;
 }
 
-
-
 img{
 max-width: 100%;
 height: auto;
 
 }
 
-div.gallery{
-  margin-top: 45px;
-  width: 100%;
-  text-align: center;
-}
-
-.column img {
-    width: 600;
-    height: auto;
-    object-fit: contain;
-    margin: 10px;
-}
-.row {
-  display: flex;
-}
-
-.column {
-  flex: 50%;
-}
-
-div.gallery2{
-  margin-top: 45px;
-  width: 100%;
-  align-content: center;
-
-}
-
-.column2 img {
-    width: 400px;
-    height: 325px;
-    object-fit: contain;
-    margin: 10px;
-    position: fixed;
-}
-
-.column1 {
-  flex: 50%;
-}
-.column2 {
-  flex: 50%;
-  margin-right: 42px;
-}
 
 @media only screen and (max-width: 600px) {
 
   .mandogifheader {
   margin-left: 0px;
   }
-  .column img {
+
+ .column img {
       width: 400;
 
 }
-  .column2 img {
-    margin-right: 42px;
-  }
 
-/*
-@media (min-width: 640px){
-  .gallery{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(5,300px);
-    grid-auto-flow: row dense;
 
-  }
 
-  .gallery-item{
-    margin:0.7rem;
-
-  }
-
-  .gallery-item: first-child {
-    grid-row: span 1;
-
-  }
-
-  .gallery-item:nth-child(2) {
-    grid-column: 2/ 3;
-    grid-row: span 2;
-  }
-
-  .gallery-item:nth-child(6),
-  .gallery-item:nth-child(8) {
-    grid-row: span 2;
-  }
 }
-*/
+

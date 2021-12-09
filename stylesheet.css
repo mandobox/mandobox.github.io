@@ -119,9 +119,9 @@ mark.current {
 .about-image {
   position: relative;
   display: inline-block;
-  margin-top: 90px;
-  width: 200px;
-  height: 200px;
+  vertical-align: top;
+  width: 250px;
+  height: 300px;
  object-fill: contain;
 }
 

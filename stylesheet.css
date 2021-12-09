@@ -116,7 +116,7 @@ mark.current {
  
 }
 
-.about-image {
+/* .about-image {
   position: relative;
   display: inline-block;
   vertical-align: top;
@@ -124,6 +124,7 @@ mark.current {
   height: 300px;
  object-fill: contain;
 }
+*/
 
 .about {
   position: relative;

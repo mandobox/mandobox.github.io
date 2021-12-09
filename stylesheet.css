@@ -123,6 +123,7 @@ mark.current {
   margin-left: 75px;
   width: 500px;
   height: 340px;
+  object-fit: contain;
 }
 
 .about {

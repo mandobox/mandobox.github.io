@@ -116,15 +116,14 @@ mark.current {
  
 }
 
-/* .about-image {
+.about-image {
   position: relative;
   display: inline-block;
   vertical-align: top;
-  width: 250px;
-  height: 300px;
- object-fill: contain;
-}
-*/
+  height: auto;
+  width: 500px;
+  object-fill: contain;
+
 
 .about {
   position: relative;

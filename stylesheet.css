@@ -120,11 +120,10 @@ mark.current {
   position: relative;
   display: inline-block;
   vertical-align: top;
-  margin-left: 10px;
+  margin-left: 75px;
   width: 500px;
   height: 340px;
 }
-
 
 .about {
   position: relative;
@@ -181,4 +180,3 @@ div.gallery{
 
 
 }
-
